@@ -11,3 +11,5 @@ MatplotLib  |
 Numpy  | 
 Seaborn  | 
 TorchVision  | 
+
+# Training models
