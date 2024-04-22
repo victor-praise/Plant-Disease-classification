@@ -13,3 +13,21 @@ Seaborn  |
 TorchVision  | 
 
 # Training models
+in order to train the models, first ensure you have all the packages installed, ensure you have already downloaded the datasets. replace the path dataset with the path where you have the dataset. then simply run the cells. it is recommended you used GPU for quicker processing time
+
+# Using already provided pretrained models
+Each model has it's own folder, in order to use the pre-trained model on the provided datasets, simply load the model `model = models.resnet18(weights=None)`
+`model.load_state_dict(torch.load('/content/drive/My Drive/resnet18Dataset1_model.pth'))` assuming you want to test ResNet18 trained on dataset1.
+replace the path with the actual path where the pre-trained model is
+Next fomr the sample dataset simply load the data for dataset1 and evalute with the model.
+`true_labels_test = []
+predicted_labels_test = []
+with torch.no_grad():
+    for inputs, labels in test_loader:
+        inputs = inputs.to(device)
+        outputs = model(inputs)
+        _, predicted = torch.max(outputs, 1)
+        true_labels_test.extend(labels.tolist())
+        predicted_labels_test.extend(predicted.tolist())
+accuracy = accuracy_score(true_labels_test, predicted_labels_test)
+print(f"Testing Accuracy: {accuracy}")`
