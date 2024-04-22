@@ -31,3 +31,9 @@ with torch.no_grad():
         predicted_labels_test.extend(predicted.tolist())
 accuracy = accuracy_score(true_labels_test, predicted_labels_test)
 print(f"Testing Accuracy: {accuracy}")`
+
+# Downloading the Dataset
+for the datsets, simply visit the following links and click download
+* [Dataset 1]([https://pages.github.com/](https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset)).
+* [Dataset 2]([https://pages.github.com/]([https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset](https://www.kaggle.com/datasets/alyeko/potato-tomato-dataset))).
+* [Dataset 3]([https://pages.github.com/]([https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset](https://www.kaggle.com/datasets/amandam1/healthy-vs-diseased-leaf-image-dataset))).
