@@ -34,6 +34,6 @@ print(f"Testing Accuracy: {accuracy}")`
 
 # Downloading the Dataset
 for the datsets, simply visit the following links and click download
-* [Dataset 1]([https://pages.github.com/](https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset)).
-* [Dataset 2]([https://pages.github.com/]([https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset](https://www.kaggle.com/datasets/alyeko/potato-tomato-dataset))).
-* [Dataset 3]([https://pages.github.com/]([https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset](https://www.kaggle.com/datasets/amandam1/healthy-vs-diseased-leaf-image-dataset))).
+* [Dataset 1](https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset)
+* [Dataset 2](https://www.kaggle.com/datasets/alyeko/potato-tomato-dataset)
+* [Dataset 3](https://www.kaggle.com/datasets/amandam1/healthy-vs-diseased-leaf-image-dataset)
