@@ -79,6 +79,6 @@ Replace `PATH_TO_SAVED_MODEL` with the actual path to the saved model file.
 You should now be able to run the pretrained models on the sample test dataset.
 
 ## Link the Datasets
-* [Dataset 1](https://www.kaggle.com/datasets/alyeko/potato-tomato-dataset) - 6 Classes
-* [Dataset 2](https://www.kaggle.com/datasets/amandam1/healthy-vs-diseased-leaf-image-dataset) - 16 Classes
-* [Dataset 3](https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset) - 28 Classes
+* [Dataset 1](https://www.kaggle.com/datasets/alyeko/potato-tomato-dataset)
+* [Dataset 2](https://www.kaggle.com/datasets/amandam1/healthy-vs-diseased-leaf-image-dataset)
+* [Dataset 3](https://www.kaggle.com/datasets/goelvanshaj/plant-disease-classification-dataset)
