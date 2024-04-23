@@ -1,4 +1,4 @@
-# Plant Disease Classification
+# Plant Disease Classification Using CNN
 
 For this project, we tackled the plant disease classification problem using three deep learning models: ResNet18, MobileNetV3, and InceptionV3. We trained these models from scratch on three separate datasets covering various plant species including apple, cherry, chili, grape, potato, and tomato, which were split into training (70%), validation (10%), and test (20%) sets. After evaluating the performance of the models on the datasets, we performed transfer learning on the ResNet18 and MobileNetV3 models. Finally, we conducted hyperparameter tuning on the MobileNetV3 model using grid search in an attempt to improve its accuracy.
 
