@@ -24,7 +24,7 @@ Each of the folders named after a CNN architecture contains a subfolder called `
 
 2. Update the Directories
 
-Each `.ipynb` file has a variable called `dataset_dir`. Update this variable to the path of the correct dataset on your local machine or Google Colab.
+Each `.ipynb` file has a variable called `dataset_dir`. Update this variable to the path of the correct dataset on your local machine or Google Drive.
 
 ```sh
 dataset_dir = DATASET_PATH
